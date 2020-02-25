@@ -13,7 +13,7 @@ developers.
 The material presented here is based on the article:
 [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/).
 
-![Git Branching Workflow](01-Git-Branching-Workflow.png)
+![Diagram 1: Complete workflow](images/1-complete-workflow.png)
 
 This image shows the entires process outlined below. You could
 follow these processes in a real project. In the course of a
@@ -55,7 +55,7 @@ will be the Development branch.
 - `git add .`
 - `git commit -m "Edited text to rename the young boy"`
 
-![Git Branching Workflow](02-Git-Branching-Workflow-Rename-character.png)
+![Diagram 2: Rename character](images/2-rename-character.png)
 
 ### Oh no! Fix typos
 
@@ -71,14 +71,14 @@ Check the current version of the project for typos.
 - Push to production (GitHub repo): `git push origin master`
 - View script on GitHub to verify typos are fixed, but young boy is not yet renamed
 
-![Git Branching Workflow](03-Git-Branching-Workflow-Fix-typos.png)
+![Diagram 3: Typo fixes](images/3-typo-fixes.png)
 
 These changes should be incorporated into the development branch.
 
 - `git checkout develop`
 - `git merge master`
 
-![Git Branching Workflow](04-Git-Branching-Workflow-Merge-with-develop.png)
+![Diagram 4: Merge typo fixes](images/4-merge-typo-fixes.png)
 
 ### New Feature: Add new characters
 
@@ -98,7 +98,7 @@ Add a New Feature branch where you can incorporate the zoo keeper.
 - Edit text to add the Zookeeper character to the plot
 - Commit changes to `zookeeper` branch
 
-![Git Branching Workflow](05-Git-Branching-Workflow-New-Feature.png)
+![Diagram 5: New character](images/5-new-character.png)
 
 ### Improve story ending
 
@@ -114,7 +114,7 @@ development branch.
 - `git add .`
 - `git commit -m "Improved the ending"`
 
-![Git Branching Workflow](06-Git-Branching-Workflow-improve-the-ending.png)
+![Diagram 6: New story ending](images/6-new-story-ending.png)
 
 ### Merge new character branch into develop
 
@@ -125,7 +125,7 @@ before merging them with main story under development.
 - Merge `zookeeper` branch into `develop`: `git merge zookeeper`
 - Now, the ending doesn't include the new character! Add another sentence to include the Friendly Koala in the ending.
 
-![Git Branching Workflow](08-Git-Branching-Workflow-merge-feature.png)
+![Diagram 7: Merge new character](images/7-merge-new-character.png)
 
 ### Review new script and ship it!
 
@@ -138,7 +138,7 @@ branch into the Production branch.
 - Merge all changes from development branch: `git merge develop`
 - Now ship it! `git push origin master`
 
-![Git Branching Workflow](01-Git-Branching-Workflow.png)
+![Diagram 8: Complete workflow](images/1-complete-workflow.png)
 
 ### Additional Resources
 
