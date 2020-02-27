@@ -170,6 +170,9 @@ In the course of a team project you are likely to apply the steps outlined
 here several times. You should follow this process on real team projects.
 Over time, this will make your team more productive while working in parallel.
 
-### Additional Resources
+## Additional Resources
 
-- [Learn Git Branching](https://learngitbranching.js.org/)
+- [Learn Git Branching](https://learngitbranching.js.org/) – interactive tutorial that covers many Git features step by step
+- [Git to Know Branching](https://make.sc/git-to-know-branching) – tutorial that covers branching and resolving merge conflicts
+- [Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf) – quick reference guide that summarizes many Git commands on 2 pages
+- [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/) – Vincent Driessen's article that introduced the "Git flow" pattern presented here, which is now a best practice used by software engineering teams around the world
