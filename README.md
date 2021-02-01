@@ -147,7 +147,6 @@ before merging them with main story in the Development version.
 
 - Be sure you're on the `develop` branch: `git checkout develop`
 - Merge `zookeeper` branch into `develop`: `git merge zookeeper`
-- Now, the ending doesn't include the new character! Add another sentence to include the Friendly Koala in the ending.
 
 ![Diagram 7: Merge new character](images/7-merge-new-character.png)
 
