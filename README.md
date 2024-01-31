@@ -70,9 +70,9 @@ Your goal: Create a new `develop` branch and rename the character.
 This will be the Development version.
 
 - Create and checkout `develop` branch: `git checkout -b develop`
-- Edit text to rename the young boy "George" to any other name
+- Edit text to rename the young boy "Scott" to any other name
 - Add changes to staging area: `git add Script.md`
-- Commit changes to `develop`: `git commit -m "Rename George to ______"`
+- Commit changes to `develop`: `git commit -m "Rename Scott to ______"`
 
 ![Diagram 2: Rename character](images/2-rename-character.png)
 
@@ -80,7 +80,7 @@ This will be the Development version.
 
 Sometimes your team will need to fix the Production version of a movie script
 (product) that has already been published to movie executives (users).
-Since you don't want them to see the young boy George's new name just yet,
+Since you don't want them to see the young boy Scott's new name just yet,
 it's important to fix the typos in the Production version (`master` branch).
 This is a **Hot Fix**, so you'll need to create a new branch off of `master`.
 
