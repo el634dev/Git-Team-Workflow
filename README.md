@@ -116,6 +116,7 @@ would be a good idea. They may change their minds in the future.
 Probably best to keep this in a new feature branch.
 
 Create a new `zookeeper` branch where you can incorporate the zookeeper.
+Add a Zookeeper
 
 - Be sure you're on the `develop` branch: `git status`
   - If not, run `git checkout develop`
