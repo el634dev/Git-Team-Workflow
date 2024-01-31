@@ -167,7 +167,7 @@ collaborative team projects with a shared Git repository.
 
 In the course of a team project you are likely to apply the steps outlined
 here several times. You should follow this process on real team projects.
-Over time, this will make your team more productive while working in parallel.
+Over time, this will make your team more productive while working in parallel together.
 
 ## Additional Resources
 
